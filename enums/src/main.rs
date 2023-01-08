@@ -68,7 +68,7 @@ fn main() {
     // let results = player_ratings(Players::Rashford(PlayerPosition::Striker));
     // println!("{}", results)
 
-    let five = Some(5);
+    let five = Some(5); 
     let six =  plus_one(five);
     let none = plus_one(None);
 

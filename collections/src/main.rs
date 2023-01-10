@@ -51,7 +51,7 @@ fn v5() {
 }
 
 #[derive(Debug)]
-enum SpreadsheetCell {
+enum  SpreadsheetCell {
     Int(i32),
     Float(f64),
     Text(String)
@@ -59,15 +59,24 @@ enum SpreadsheetCell {
 
 fn v6() {
 
- 
-
-    let row = vec![
+    let mut row = vec![
         SpreadsheetCell::Int(3),
         SpreadsheetCell::Text(String::from("blue")),
         SpreadsheetCell::Float(10.12)
     ];
 
-    println!("{:#?}", row);
+    row.push(SpreadsheetCell::Int(12));
+    
+    for i in row {
+   
+
+        match i {
+            SpreadsheetCell::Float(_) => println!("yo bro"),
+            SpreadsheetCell::Text(_) => println!("hey man"),
+            SpreadsheetCell::Int(_) => println!("thank you")
+        }
+    }
+    // println!("{:#?}", row);
 }
 
 fn main() {

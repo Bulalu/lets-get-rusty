@@ -39,7 +39,7 @@ fn ex3() {
 }
 
 fn main() {
-    test_1()
+    ex4()
 }
 
 
@@ -47,13 +47,41 @@ fn main() {
 // use a vector and return the median (when sorted, the value in the middle position) 
 // and mode (the value that occurs most often; a hash map will be helpful here) of the list.
 
-fn test_1() {
-    let mut v = vec![1,2,4,5,6,3,2];
+fn ex4() {
 
+    let mut map = HashMap::new();
+    let mut v = vec![1,2,4,5,6,6,3,6,3,2,9,8,7,8];
+ 
+
+    // // median solution
+    v.sort();
     let length = v.len();
+    // println!("{:?}",v);
 
-     
-    println!("{:?}",v.sort())
+    let median = if length % 2 == 0 {
+        //calculate the average of the two numbers in the middle
+         (v[length / 2] + v[length / 2 - 1])  / 2
+       
+    } else {
+
+        v[length/2]
+    };
+
+    
+
+    // // mode solution
+    for i in v {
+        // println!("{i}")
+        let count = map.entry(i).or_insert(0);
+        *count += 1
+    }
+
+    
+
+    // for (word, count) in map {
+    //     println!("{word} has {count}")
+    // }
+
 }
 
 

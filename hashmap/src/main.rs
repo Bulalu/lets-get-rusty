@@ -39,7 +39,8 @@ fn ex3() {
 }
 
 fn main() {
-    ex4()
+    let mut v = vec![1,2,4,5,6,6,3,6,3,2,9,8,7,8,8,8];
+    median_and_mode(v);
 }
 
 
@@ -47,40 +48,49 @@ fn main() {
 // use a vector and return the median (when sorted, the value in the middle position) 
 // and mode (the value that occurs most often; a hash map will be helpful here) of the list.
 
-fn ex4() {
+fn median_and_mode(numbers: Vec<i32>) -> (f64, i32)  {
 
-    let mut map = HashMap::new();
-    let mut v = vec![1,2,4,5,6,6,3,6,3,2,9,8,7,8];
+    let mut numbers = numbers;
  
 
     // // median solution
-    v.sort();
-    let length = v.len();
-    // println!("{:?}",v);
+    numbers.sort();
+    let length = numbers.len();
+    // println!("{:?}",numbers);
 
     let median = if length % 2 == 0 {
-        //calculate the average of the two numbers in the middle
-         (v[length / 2] + v[length / 2 - 1])  / 2
+        //calculate the anumberserage of the two numbers in the middle
+         (numbers[length / 2] + numbers[length / 2 - 1]) as f64  / 2.0
        
     } else {
 
-        v[length/2]
+        numbers[length/2] as f64
     };
 
     
 
     // // mode solution
-    for i in v {
-        // println!("{i}")
-        let count = map.entry(i).or_insert(0);
-        *count += 1
+    let mut mode = 0;
+    let mut mode_count = 0;
+    let mut counts = HashMap::new();
+
+    for &number in &numbers {
+        *counts.entry(number).or_insert(0) += 1;
+    }
+
+    for (&number, &count) in &counts {
+
+        if count > mode_count {
+            mode = number;
+            mode_count = count;
+        }
     }
 
     
 
-    // for (word, count) in map {
-    //     println!("{word} has {count}")
-    // }
+    (median , mode)
+
+
 
 }
 

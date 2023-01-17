@@ -12,10 +12,31 @@ fn largest<T:PartialOrd>(list: &[T]) -> &T {
     largest
 }
 
+#[derive(Debug)]
 struct Point<T, U> {
     x: T,
     y: U
 }
+
+//TRAITS
+
+pub trait Summary {
+    fn summarize(&self) -> String;
+}
+
+pub struct NewsArticle {
+    pub headline: String,
+    pub location: String,
+    pub author: String,
+    pub content: String,
+}
+
+impl Summary for NewsArticle {
+    fn summarize(&self) -> String {
+        format!("{}, by {} ({})", self.headline, self.author, self.location)
+    }
+}
+
 fn main() {
     println!("Hello, world!");
     let v = vec![1,2,4,5,6];
@@ -27,8 +48,11 @@ fn main() {
 
     let test = Point {
         x:5,
-        y:4.0
+        y:"yo bro"
     };
+    println!(
+        "{:?}", test
+    )
 }
 
 

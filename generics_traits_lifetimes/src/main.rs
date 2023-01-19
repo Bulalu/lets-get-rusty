@@ -37,23 +37,39 @@ impl Summary for NewsArticle {
     }
 }
 
-fn main() {
-    println!("Hello, world!");
-    let v = vec![1,2,4,5,6];
-    let chars = vec!["t", "x", "g", "z"];
-    let largest1 = largest(&v);
-    let largest2 = largest(& chars);
-    println!("{largest1}");
-    println!("{largest2}");
 
-    let test = Point {
-        x:5,
-        y:"yo bro"
-    };
-    println!(
-        "{:?}", test
-    )
+// lifetimes are really about ensuring memory doesnt
+// get cleaned up before a reference can use it
+// its all about the references baby
+// https://www.youtube.com/watch?v=1QoT9fmPYr8
+fn main() {
+    let r;
+
+    
+    let x = 5;
+    r = &x;
+    
+
+    println!("r: {}", r);
 }
+
+// fn main() {
+//     println!("Hello, world!");
+//     let v = vec![1,2,4,5,6];
+//     let chars = vec!["t", "x", "g", "z"];
+//     let largest1 = largest(&v);
+//     let largest2 = largest(& chars);
+//     println!("{largest1}");
+//     println!("{largest2}");
+
+//     let test = Point {
+//         x:5,
+//         y:"yo bro"
+//     };
+//     println!(
+//         "{:?}", test
+//     )
+// }
 
 
 

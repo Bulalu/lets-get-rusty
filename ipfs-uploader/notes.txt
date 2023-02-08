@@ -11,3 +11,22 @@ The type alias Box<dyn Error> is often used as the return type for functions tha
 indicating that any error value should implement the Error trait and be stored in a Box.
 This provides a convenient way of returning a wide variety of error types from a single function,
 while still allowing the caller to inspect and handle the errors in a unified way.
+
+
+Concurrency refers to the ability of a program to handle multiple tasks simultaneously.
+ A concurrent program is one that is able to run multiple tasks at the same time,
+ either by interleaving their execution on a single processor, or by executing them simultaneously on multiple processors.
+
+Here's a practical use case for concurrency:
+
+Imagine you have a web scraper that downloads images from multiple websites.
+ The scraper needs to download the images from each website one at a time.
+  If you use a single-threaded approach, the scraper would have to wait for the download of one image to complete before starting the next.
+ This would result in a slow and inefficient process.
+
+Instead, you could use a concurrent approach and download images from multiple websites simultaneously.
+This would allow you to take advantage of multiple processors or cores and download multiple images at the same time.
+The result would be a much faster and more efficient web scraper.
+
+In this example, concurrency is used to make the web scraper more efficient by allowing it to handle multiple tasks simultaneously.
+This can result in significant performance improvements and is a common use case for concurrency.

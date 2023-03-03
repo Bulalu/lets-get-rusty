@@ -1,0 +1,12 @@
+/Users/elishabulalu/Desktop/rust🦀/ipfs-uploader/target/debug/deps/spin-e435924e82eb2c92.rmeta: /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/lib.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/barrier.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/lazy.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/mutex.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/mutex/spin.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/once.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/relax.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/rwlock.rs
+
+/Users/elishabulalu/Desktop/rust🦀/ipfs-uploader/target/debug/deps/spin-e435924e82eb2c92.d: /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/lib.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/barrier.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/lazy.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/mutex.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/mutex/spin.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/once.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/relax.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/rwlock.rs
+
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/lib.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/barrier.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/lazy.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/mutex.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/mutex/spin.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/once.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/relax.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/spin-0.9.5/src/rwlock.rs:

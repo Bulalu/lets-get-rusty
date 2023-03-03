@@ -1,0 +1,12 @@
+/Users/elishabulalu/Desktop/rust🦀/ipfs-uploader/target/debug/deps/half-d108fea5697d6f86.rmeta: /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/lib.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/bfloat.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/bfloat/convert.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/binary16.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/binary16/convert.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/leading_zeros.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/slice.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/vec.rs
+
+/Users/elishabulalu/Desktop/rust🦀/ipfs-uploader/target/debug/deps/half-d108fea5697d6f86.d: /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/lib.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/bfloat.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/bfloat/convert.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/binary16.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/binary16/convert.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/leading_zeros.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/slice.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/vec.rs
+
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/lib.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/bfloat.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/bfloat/convert.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/binary16.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/binary16/convert.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/leading_zeros.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/slice.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/half-2.2.1/src/vec.rs:

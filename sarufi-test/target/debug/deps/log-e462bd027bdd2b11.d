@@ -1,0 +1,9 @@
+/Users/elishabulalu/Desktop/rust🦀/sarufi-test/target/debug/deps/log-e462bd027bdd2b11.rmeta: /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/lib.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/macros.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/serde.rs
+
+/Users/elishabulalu/Desktop/rust🦀/sarufi-test/target/debug/deps/liblog-e462bd027bdd2b11.rlib: /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/lib.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/macros.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/serde.rs
+
+/Users/elishabulalu/Desktop/rust🦀/sarufi-test/target/debug/deps/log-e462bd027bdd2b11.d: /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/lib.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/macros.rs /Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/serde.rs
+
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/lib.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/macros.rs:
+/Users/elishabulalu/.cargo/registry/src/github.com-1ecc6299db9ec823/log-0.4.17/src/serde.rs:

@@ -20,9 +20,43 @@ pub struct PinOptions {
 #[derive(Serialize)]
 #[serde(rename_all = "camelCase")]
 
+// Accepting any object that can transformed into JSON format
+// so that it can transferred to other protocols, as JSON is a 
+// popular way to interchange data btn systems/networks
+
 pub struct PinByJSON<S: Serialize> {
     pinata_content: S,
-    pinata_options: Option<PinOptions>,
+    pinata_option: Option<PinOptions>,
     pinata_metadata: Option<PinMetadata>,
 }
+
+impl <S> PinByJSON<S> where S: Serialize {
+    pub fn new(json_data: S) -> PinByJSON<S> {
+        PinByJSON {
+            pinata_content: json_data,
+            pinata_metadata: None,
+            pinata_option: None
+        }
+    }
+
+      /// Consumes the PinByHash and returns a new PinByHash with pinata options set.
+  pub fn set_options(mut self, options: PinOptions) -> PinByJson<S> {
+    self.pinata_option = Some(options);
+    self
+  }
+}
+
+
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "PascalCase")]
+/// Represents a PinnedObject
+pub struct PinnedObject {
+  /// IPFS multi-hash provided back for your content
+  pub ipfs_hash: String,
+  /// This is how large (in bytes) the content you just pinned is
+  pub pin_size: u64,
+  /// Timestamp for your content pinning in ISO8601 format
+  pub timestamp: String
+}
+
 

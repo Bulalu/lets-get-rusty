@@ -1,0 +1,11 @@
+/Users/elishabulalu/Desktop/work/rust🦀/ipfs-uploader/target/debug/deps/gif-9ee56ef3fe839eca.rmeta: /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/lib.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/traits.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/common.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/reader/mod.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/reader/decoder.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/encoder.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/../README.md
+
+/Users/elishabulalu/Desktop/work/rust🦀/ipfs-uploader/target/debug/deps/gif-9ee56ef3fe839eca.d: /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/lib.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/traits.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/common.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/reader/mod.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/reader/decoder.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/encoder.rs /Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/../README.md
+
+/Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/lib.rs:
+/Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/traits.rs:
+/Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/common.rs:
+/Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/reader/mod.rs:
+/Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/reader/decoder.rs:
+/Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/encoder.rs:
+/Users/elishabulalu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.11.4/src/../README.md:

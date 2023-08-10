@@ -1,0 +1,11 @@
+{
+    "name": "My Test Bot",
+    "description": "A test bot created using the Sarufi API",
+
+    "webhook_url": "https://example.com/webhook",
+    "webhook_trigger_intents": [
+        "greetings",
+        "bye"
+    ],
+    "visible_on_community": true
+}

@@ -4,9 +4,17 @@ use serde::de::DeserializeOwned;
 use errors::Error;
 
 use utils::api_url;
+use api::internal::*;
+
+pub use api::data::*;
+pub use api::metadata::*;
+pub use errors::ApiError;
 
 
+
+mod api;
 mod utils;
+mod errors;
 
 pub struct PinataClient {
     client: Client,
@@ -50,6 +58,13 @@ impl  PinataClient {
     }
 
     /// Pin By file
+    pub async fn pin_file(&self, pin_data: PinByFile) -> Result<PinnedObject, ApiError> {
+        let mut form = Form::new();
+        let file_name = "test Name";
+        // create a function that returns the bytes
+        
+
+    }
     /// Unpin By Hash
     /// PinataApiError iko kwa internal.rs
     
